@@ -32,12 +32,14 @@ my_data$Activity<-activity_labels[my_data$Activity, 2]
 ##Point 4: Appropriately labels the data set with descriptive variable names. 
 names(my_data)<-gsub("[-()]", "", names(my_data))
 names(my_data) <- gsub("^t", "Time", names(my_data))
-names(my_data) <- gsub("^f", "Freq", names(my_data))
-names(my_data) <- gsub("Acc", "Accelerator", names(my_data))
+names(my_data) <- gsub("^f", "Frequency", names(my_data))
+names(my_data) <- gsub("Acc", "Accelerometer", names(my_data))
 names(my_data) <- gsub("Gyro", "Gyroscope", names(my_data))
 names(my_data) <- gsub("Mag", "Magnitude", names(my_data))
 names(my_data) <- gsub("mean", 'Mean', names(my_data))
 names(my_data) <- gsub("std", 'Std', names(my_data))
+names(my_data) <- gsub("BodyBody", 'Body', names(my_data))
+
 
 
 
