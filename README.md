@@ -11,7 +11,7 @@ This repository includes:
   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each      activity and each subject.
 
 - A tidy data set called `tidy_data.txt` containing the results of the R script above.
-- A code book called `CodeBook.md` explaining how run_analysis.R works and the variables it uses.
+- A code book called `CodeBook.md` explaining how `run_analysis.R` works and the variables it uses.
 
 This R script assumes the user has downloaded the data, and has it storaged in his working directory without altering the name of the folder or documents include in the data archive.
 
